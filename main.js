@@ -66,7 +66,7 @@ function infoSample(e) {
     document.getElementById("cont-box-sample").innerHTML=`
        <div class="box-sample-info" id="box-sample-info">
            <div class="img-sample">
-           <img src="img/samples/modobass.png" alt="">
+           <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/modobass.png" alt="">
            </div>
            <div class="descripcion-y-link">
            <div class="descripcion-sample">
@@ -111,7 +111,7 @@ function infoSample(e) {
     document.getElementById("cont-box-sample").innerHTML=`
        <div class="box-sample-info" id="box-sample-info">
        <div class="img-sample">
-       <img src="img/samples/plugins korg.png" alt="">
+       <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/plugins%20korg.png" alt="">
    </div>
            <div class="descripcion-y-link">
            <div class="descripcion-sample">
@@ -150,7 +150,7 @@ function infoSample(e) {
     document.getElementById("cont-box-sample").innerHTML=`
     <div class="box-sample-info" id="box-sample-info">
     <div class="img-sample">
-    <img src="img/samples/acordeon guerrini.png" alt="">
+    <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/acordeon%20guerrini.png" alt="">
 </div>
         <div class="descripcion-y-link">
         <div class="descripcion-sample">
