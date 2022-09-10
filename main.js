@@ -188,7 +188,7 @@ function todosLosSamples() {
     document.getElementById("cont-box-sample").innerHTML=`<div class="box-sample" id="box-sample-1" onclick="infoSample(this)">
     <h3>Bajo para cumbia</h3>
     <div class="img-sample">
-        <img src="img/samples/modobass.png" alt="">
+        <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/modobass.png" alt="">
     </div>
     <div class="descripcion-sample">
         <p>El primer instrumento virtual de bajo eléctrico modelado físicamente.
@@ -203,7 +203,7 @@ function todosLosSamples() {
 <div class="box-sample" id="box-sample-2" onclick="infoSample(this)">
     <h3>Korg N364 Samples</h3>
     <div class="img-sample">
-        <img src="img/samples/plugins korg.png" alt="">
+        <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/plugins%20korg.png" alt="">
     </div>
     <div class="descripcion-sample">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam iure dolores quam nesciunt architecto consectetur temporibus porro ut eos itaque. Temporibus rem, cum maiores nesciunt quis a quos deserunt minima nobis id dolor reprehenderit nemo vero fugit quisquam nisi labore.</p>
@@ -213,7 +213,7 @@ function todosLosSamples() {
 <div class="box-sample" id="box-sample-3" onclick="infoSample(this)">
     <h3>ACORDEÓN GUERRINI PARA KONTAKT 6</h3>
     <div class="img-sample">
-        <img src="img/samples/acordeon guerrini.png" alt="">
+        <img src="https://rawcdn.githack.com/MarcoA36/theluckyboss-page/6f1749f9bef181bd29d6dd20a2e114279b74c12e/img/samples/acordeon%20guerrini.png" alt="">
     </div>
     <div class="descripcion-sample">
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est iure consequuntur aliquid ea beatae dolores iste accusamus dolorum tempora velit nesciunt pariatur perspiciatis repellat inventore commodi repudiandae esse, saepe laborum consectetur accusantium doloribus quidem! Aspernatur ut dignissimos quos sunt ad!</p>
