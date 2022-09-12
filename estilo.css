@@ -115,8 +115,9 @@ nav .container>div {
 
 .desplegable ul {
     width: 200px;
-    /* background-color: var(--color-fondo); */
-    background-color: black;
+    background-color: var(--color-trans);
+    border-radius: 4px;
+    padding: 10px;
     position: absolute;
     top: 30px;
     right: 0;
@@ -127,6 +128,8 @@ nav .container>div {
     width: 100%;
     padding:5px;
     font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 .desplegable ul li:hover{
@@ -439,7 +442,7 @@ nav .container>div {
 /* footer */
 
 footer {
-    background-color: rgb(29, 25, 25);
+    background-color: var(--color-trans);
 }
 
 footer .container {
@@ -503,6 +506,9 @@ footer .textos span {
     
     .cont-inicio h2{
         font-size: 30px;
+          height: 80px;
+        display: flex;
+        flex-direction: column;
     }
     
     .cont-inicio #efecto-escritura{
@@ -526,11 +532,11 @@ footer .textos span {
 }
 
 .box-video{
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 .box-sample {
-    width: 80%;
+    width: 90%;
     margin: auto;
     gap: 20px;
 }
@@ -545,7 +551,7 @@ footer .textos span {
 
 @media(max-width:700px){
     .cont-spotify .spotify{
-        width: 80%;
+        width: 90%;
         margin: auto;
     }
     
