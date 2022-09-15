@@ -111,11 +111,13 @@ nav .container>div {
 
 .desplegable {
     position: relative;
+    
 }
 
 .desplegable ul {
     width: 200px;
     background-color: var(--color-trans);
+    /* background-color: black; */
     border-radius: 4px;
     padding: 10px;
     position: absolute;
@@ -127,8 +129,8 @@ nav .container>div {
 .desplegable ul li{
     width: 100%;
     padding:5px;
-    font-weight: bold;
     margin-top: 10px;
+    font-weight: bold;
     cursor: pointer;
 }
 
@@ -158,11 +160,11 @@ nav .container>div {
 
 /* Inicio */
 .cont-inicio{
-    background-image: url(https://rawcdn.githack.com/MarcoA36/theluckyboss-page/42333a84165c97c39c65dc362588e889f2fe0e1e/img/img-inicio.jpg);
+    background-image: url(img/img-inicio.jpg);
     background-size: cover;
     width: 100%;
     aspect-ratio: 16/7;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .cont-inicio .container {
@@ -211,193 +213,58 @@ nav .container>div {
 
 
 
-/*spotify*/
 
-.cont-spotify,
-.cont-videos,
-.cont-samples,
-.cont-contacto{
-    margin-top: 50px;
-}
+/*seccion VST*/
 
-.cont-spotify .container{
-    display: flex;
-    justify-content: space-between;
-}
-.cont-spotify .spotify{
-    width: 50%;
-}
-
-.cont-spotify .mensaje{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-    font-size: 20px;
-}
-
-/* .cont-populares .youtube{
-    width: 30%;
-}
-
-.cont-populares .youtube .lista-youtube{
+.box-vst{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 100px;
 }
 
-.youtube .lista-youtube .box-video{
-    width: 100%;
-    aspect-ratio: 16/9;
-} */
-/* videos */
-
-.cont-box-video,
-.cont-box-sample,
-.cont-box-artista,
-.cont-box-contacto {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px 0;
-    border-top: 1px solid gray;
-}
-
-.box-video,
-.box-sample {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-}
-
-.box-video .video {
-    width: 100%;
-}
-
-.box-video .video iframe {
-    width: 100%;
-    aspect-ratio: 16/9;
-    /* height: 280px; */
-}
-
-.cont-videos .texto{
-    display: inline-block;
-    padding: 10px;
-    background-color: var(--color-trans-2);
-    border-radius: 40px;
-}
-
-.cont-videos .texto a{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    font-size: 22px;
-}
-
-.cont-videos .texto i{
-    font-size: 34px;
-}
-/* samples */
-
-.box-sample:hover{
-    filter: brightness(1.25);
-}
-.box-sample img{
-    
-    width: 100%;
+.img-vst img{
+    width: 400px;
     vertical-align: middle;
-    aspect-ratio: 14/9;
+    aspect-ratio: 16/9;
     object-fit: cover;
 }
 
-
-.cont-box-sample-info{
-    width: 100%;
-}
-
-.box-sample-info{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
-
-.box-sample-info .img-sample{
-    width: 30%;
-}
-.box-sample-info img{
-    width: 100%;
-    aspect-ratio: 14/9;
-    object-fit: cover;
-}
-
-
-.box-sample-info .descripcion-y-link{
-    width: 65%;
-}
-
-.descripcion-sample h3{
+.nombre-vst{
     margin-bottom: 10px;
 }
 
-.link{
+.mas-y-descargar{
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
-.link .btn-volver{
-    font-size: 28px;
-}
-
-.link-descarga a{
-    display: flex;
+.descripcion-vst .btn{
+    cursor: pointer;
     padding: 10px;
-    gap: 10px;
-    background-color: var(--color-trans-2);
-    border-radius: 40px;
-    font-size: 20px;
-    /* font-weight: bold; */
-   margin-top: 20px;
-    cursor: pointer;
-    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: var(--color-trans);
+    border: 1px solid var(--color-fuente-2);
 }
 
-
-/* artistas */
-
-/* .box-artista {
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+.descargar-vst{
+    display: none;
+    /* float: right; */
+    width: 300px;
+    text-align: center;
+    
+    
 }
 
-.box-artista .img-artista {
-    width: 80%;
-    margin: auto;
+.texto-desplegable{
+    display: none;
 }
-
-.img-artista img {
-    width: 100%;
-    vertical-align: middle;
-    aspect-ratio: 14/9;
-    object-fit: cover;
-    border-radius: 24px;
-}
-
-.box-video,
-.box-sample,
-.box-artista:hover{
-    cursor: pointer;
-} */
 
 /* contacto */
 
 .cont-box-contacto {
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -471,7 +338,6 @@ footer .textos span {
 @media(max-width:1200px) {
     .container {
         width: 98%;
-
     }
 }
 
@@ -483,20 +349,20 @@ footer .textos span {
         display: inline-block;
     }
 
-    .cont-videos .texto a{
-        font-size: 16px;
-    }
-    
-    .cont-videos .texto i{
-        font-size: 24px;
-    }
 }
 
-/* @media(max-width:800px){
 
-} */
+@media(max-width:900px){
+    .container{
+        width: 90%;
+    }
 
-
+   .box-vst{
+    flex-direction: column;
+    align-items: center;
+    
+   }
+}
 
 
 @media(max-width:800px) {
@@ -505,8 +371,8 @@ footer .textos span {
     }
     
     .cont-inicio h2{
-        font-size: 30px;
-          height: 80px;
+        font-size: 32px;
+        height: 80px;
         display: flex;
         flex-direction: column;
     }
@@ -515,13 +381,7 @@ footer .textos span {
         font-size: 22px;
     }
     
-    .cont-spotify .mensaje {
-         font-size: 18px;
-    }
-
-.cont-box-video,
-.cont-box-sample,
-.cont-box-artista,
+   
 .cont-box-contacto {
     width: 100%;
     display: flex;
@@ -530,21 +390,6 @@ footer .textos span {
     padding: 20px 0;
     border-top: 1px solid gray;
 }
-
-.box-video{
-    width: 90%;
-    margin: auto;
-}
-.box-sample {
-    width: 90%;
-    margin: auto;
-    gap: 20px;
-}
-
-/* .box-artista{
-    width: 60%;
-    margin: auto;
-} */
 
 
 }
