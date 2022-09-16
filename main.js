@@ -50,33 +50,3 @@ const maquinaEscribir = (text = '', tiempo = 200, etiqueta = '') => {
 
 maquinaEscribir(efecto_escritura.innerHTML, 140, efecto_escritura)
 
-
-
-/*desplegar texto*/
-
-var desplegado=false;
-
-function desplegarTexto(e) {
-    let id_seleccionado= e.id
-    let res = id_seleccionado.split("-");
-        nombId= res[0];
-        numbId=res[1];
-
-    var box_seleccionado= document.getElementById(`boxVst-${id_seleccionado}`);
-    var btn_verMas= document.getElementById(id_seleccionado);
-    var texto_desplegable= document.getElementById(`textoDesplegable-${numbId}`)
-    var btn_descargar= document.getElementById(`descargarVst-${numbId}`)
-
-    if (desplegado==false) {
-        texto_desplegable.style.display="block";
-        btn_descargar.style.display="block"
-        btn_verMas.innerHTML= "ver menos"
-        desplegado=true
-    }else{
-        texto_desplegable.style.display="none";
-        btn_descargar.style.display="none"
-        btn_verMas.innerHTML= "ver mas";
-        desplegado=false
-        box_seleccionado.focus();
-    }
-}
