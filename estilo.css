@@ -160,7 +160,7 @@ nav .container>div {
 
 /* Inicio */
 .cont-inicio{
-    background-image: url(img/img-inicio.jpg);
+    background-image: url(https://rawcdn.githack.com/MarcoA36/theluckyboss-page/dc572e503902f026456553831036379d8b5205b7/img/img-inicio.jpg);
     background-size: cover;
     width: 100%;
     aspect-ratio: 16/7;
