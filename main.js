@@ -1,4 +1,3 @@
-
 var btn_menu = document.getElementById("btn-menu")
 var nav_desplegado = false;
 
@@ -18,6 +17,15 @@ const mq980 = matchMedia('(min-width:980px)');
 mq980.addEventListener('change', () => {
     document.getElementById("nav-menu-desplegable").style.display = "none"
     nav_desplegado = false
+})
+
+document.querySelectorAll('.btn-menu').forEach(elemento => {
+    elemento.addEventListener('click', () => {
+        if (document.getElementById("nav-menu-desplegable").style.display == "block") {
+            document.getElementById("nav-menu-desplegable").style.display = "none"
+            nav_desplegado = false
+        }
+    })
 })
 
 
@@ -49,4 +57,3 @@ const maquinaEscribir = (text = '', tiempo = 200, etiqueta = '') => {
 }
 
 maquinaEscribir(efecto_escritura.innerHTML, 140, efecto_escritura)
-
